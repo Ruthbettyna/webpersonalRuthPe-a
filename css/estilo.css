@@ -80,9 +80,7 @@ button {
     text-align: center;
     color: blanchedalmond;
     padding: 0 3rem;
-
-
-}
+  }
   
   .Imagen-1 { grid-area: Imagen-1;
     background-image: url("/imagenes/tareq.jpg");
@@ -96,6 +94,20 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.Footer p small {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:480px ) {
