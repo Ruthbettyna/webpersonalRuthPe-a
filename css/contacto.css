@@ -70,7 +70,7 @@ button {
 }
   
   .Hero { grid-area: Hero; 
-    background-image: url("/imagenes/monumento.jpg");
+    background-image: url("../imagenes/monumento.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,6 +107,20 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.footer p small {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
   
 @media screen and (max-width:480px ) {
