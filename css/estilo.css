@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url("imagenes/monumento.jpg");
+    background-image: url("../imagenes/monumento.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
