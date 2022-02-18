@@ -127,33 +127,3 @@ button {
     }
 }
 
-@media screen and (max-width:480px ) {
-* {
-    margin: 0;
-    padding: 0;
-}
-.Container {
-    display: flex;
-}
-.Header {
-    width: 100%;
-    height: 100%;
-    display: inline-flexbox;
-    margin: -0,10rem;
-    font-size: xx-small;
-}
-.Text-1 {
-    width: 100%;
-    height: 100%;
-    font-size: x-small;
-    justify-content: center;
-    padding: 0 0.2rem;
-}
-.Imagen-1 {
-    width: 100%;
-    height: 100%;
-    background-image: url("../imagenes/tareq.jpg");
-    background-position: center;
-    background-size: cover;
-}
-}
