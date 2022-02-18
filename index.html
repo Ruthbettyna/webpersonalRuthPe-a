@@ -4,39 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilo.css">
-    <title>Document</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>bootstrap</title>
 </head>
-<body class="container">
-        <header class="Header">
-                <p>Ruth <span>Peña</span></p>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">PRINCIPAL</a></li>
-                        <li><a href="trabajo.html">trabajo</a></li>
-                        <li><a href="conoceme.html">conóceme</a></li>
-                        <li><a href="contacto.html">contacto</a></li>
-                        <li><a href="pensamientos.html">pensamientos</a></li>
-                    </ul>
-                </nav>
-        </header>
-      <!--main--->
-            <div class="Hero">
-                <h1>Desarrollador web y entusiasta del café</h1>
-        <p>contrata a una experta</p>
-        <button><a href="contacto.html">contacto</a></button>
-    </div>
+<body>
+    <!---------------navbar beginning------------>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Ruth Peña</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">PRINCIPAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">trabajo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">conóceme</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">pensamientos</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
 
-            <div class="Text-1">
-                <h2>Mi pasión y enfoque es el desarrollo web</h2>
-                <p>seamos honestos y eliminemos la pelusa del marketing, necesitas un sitio web que se vea increible y que realmente funcione. El resultado final, eso es lo que hago. Construimos juntos?</p>
+    <!---------------navbar end------------------->
+    <!--------------banner beginning--------------->
+    <div class="jumbotron">
+        <h1>Desarrollador web y entusiaste del café</h1>
+        <p>Contrata a una experta</p>
+        <button type="button" class="btn btn-secondary">contacto</button>
+      </div>
+    <!---------------banner end---------------------->
+    <!---------title beginning--------------->
+    <h2>Mi pasión y enfoque es el desarrollo web</h2>
+      <!---------title end-------------------->
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="imagenes/tareq.jpg" alt="Card image">
+                <div class="card-body">
+                  <p class="card-text">Seamos honestos y eliminemos la pelusa del marketing, necesitas un sitio web que se vea increible y que realmente funcione.El resultado final, eso es lo que hago. Construimos juntos?
+                </p>
+                </div>
             </div>
-
-            <div class="Imagen-1"></div>
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="imagenes/coffetazanegra.jpg" alt="Card image">
+                <div class="card-body">
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, at neque et officia eaque velit ut illum quam exercitationem! Fuga at sed officia repudiandae dolores totam in recusandae deleniti magnam.
+                </p>
+                </div>
+            </div>
+                    
+        </div>
+    </div>
     
-    <!--/main-->
-        <footer class="Footer">
+    <footer class="Footer">
         <ul class="redes">
             <li><a href="https://es-la.facebook.com"><img src="https://icongr.am/entypo/facebook.svg?size=35&color=0962f1" alt="logo facebook"></a></li>
                 <li><a href="https://www.instagram.com/?hl=es"><img src="https://icongr.am/entypo/instagram.svg?size=35&color=0962f1" alt="logo instagram"></a></li>
@@ -46,8 +83,8 @@
         <p><small>¡Si tienes alguna duda o simplemente quieres saludarme! 👋🏼</small></p>
 
         </footer>
-        
-
-    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 </body>
 </html>
